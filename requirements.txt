@@ -1,0 +1,5 @@
+# Python runtime dependencies. Install FFmpeg/ffprobe separately.
+# Use a clean virtual environment; versions are not pinned as a compatibility guarantee.
+Pillow
+numpy
+opencv-python-headless
