@@ -37,18 +37,51 @@
 
 ## 实际效果与配图
 
-**当前文档包含功能概览、背景分流、目录命名三张说明图，不是实际表情的转换前后对比。** 真实 MOV/GIF 尚未纳入此仓库包，历史测试中提到的素材也没有随代码公开。
+### MOV 黑底原片 → 透明白描边 GIF
 
-计划采用以下方式展示获得公开许可的真实素材：
+以下四组为用户提供的真实表情素材。**左列是从 MOV 制作的黑底 GIF 预览，右列是 v2.3 的透明白描边 GIF 成品**，均可以直接看动画；点击左侧预览可查看 MOV，表格中另有下载入口。
 
-| 素材 | 在 README 中如何展示 | 目的 |
+> 左列预览缩至 220px、约 15fps，保留输入视频的完整时长和尾部空白，不代表 MOV 原文件的帧率或画质；右列显示 220×220 成品。两列独立循环，不保证同时起播、逐帧同步。
+>
+> 为减少公开文件中的编辑器信息，MOV 使用**仅视频的公开副本**：移除编辑器元数据及音轨，视频流不重新编码，解码后的全部画面逐帧一致。它不是上传 MOV 的逐字节副本；用户上传原件保持不变。GIF 无声音。
+
+| 表情 / MOV 下载 | MOV 黑底动画预览 | 透明背景 + 白描边 GIF |
 | --- | --- | --- |
-| GIF 成品 | Markdown 直接嵌入，保留动画 | 看动作、透明边缘、循环效果 |
-| MOV 原片 | 点击封面图进入文件页或下载原片 | 保留原始输入，便于对照 |
-| 三尺寸 GIF | 并排或逐行展示，标注真实像素 | 对比不同尺寸的清晰度 |
-| 透明检查图 | 把同一帧合成在白/灰/深底上 | 检查描边、残留黑边或粉边 |
+| **太强了**<br>[下载 MOV 公开副本](examples/strong/太强了.mov?raw=true) | [![太强了 MOV 黑底预览](examples/strong/source-preview.gif)](examples/strong/太强了.mov) | ![太强了 220×220 透明白描边 GIF](examples/strong/220gif/太强了.gif) |
+| **得意**<br>[下载 MOV 公开副本](examples/cool/得意.mov?raw=true) | [![得意 MOV 黑底预览](examples/cool/source-preview.gif)](examples/cool/得意.mov) | ![得意 220×220 透明白描边 GIF](examples/cool/220gif/得意.gif) |
+| **比心**<br>[下载 MOV 公开副本](examples/heart/比心.mov?raw=true) | [![比心 MOV 黑底预览](examples/heart/source-preview.gif)](examples/heart/比心.mov) | ![比心 220×220 透明白描边 GIF](examples/heart/220gif/比心.gif) |
+| **加油**<br>[下载 MOV 公开副本](examples/cheer/加油.mov?raw=true) | [![加油 MOV 黑底预览](examples/cheer/source-preview.gif)](examples/cheer/加油.mov) | ![加油 220×220 透明白描边 GIF](examples/cheer/220gif/加油.gif) |
 
-GitHub README 不应依赖任意 `<video>` 标签或仓库 MOV 自动内嵌播放。稳妥方案是 **GIF 动画 + MOV 封面/下载链接**。若需要视频播放器，可另外使用 GitHub 支持的媒体附件方式，实际支持以平台与编码格式为准。详见 [真实素材展示指南](docs/MEDIA.md)。
+四份上传的 330px GIF 与本次用 v2.3 从对应 MOV 生成的输出**逐字节一致**。三个尺寸的全部 12 个 GIF 均通过脚本的逐帧尺寸、循环、时序、透明遮罩、白描边与像素验证。
+
+| 表情 | 输入画面 | 原片帧数 | GIF 帧数 | GIF 时长 | 去尾 |
+| --- | --- | ---: | ---: | ---: | --- |
+| 太强了 | 480×480 / 30fps | 112 | 80 | 2.67s | 32帧 / 约1.06s末尾空白 |
+| 得意 | 480×480 / 30fps | 88 | 88 | 2.93s | 无 |
+| 比心 | 480×480 / 30fps | 109 | 109 | 3.63s | 无 |
+| 加油 | 480×480 / 30fps | 112 | 112 | 3.73s | 无 |
+
+GIF 时长以10ms精度编码，因此与 MOV 浮点时长有毫秒级量化差异。左列保留“太强了”尾部空白，右列将其去除，这是本次处理的预期差别。
+
+### 三尺寸成品对比
+
+以「太强了」为例，以下文件的真实像素分别为 120×120、220×220、330×330，文件夹按“尺寸数字 + gif”命名：
+
+| 120gif / 120×120 | 220gif / 220×220 | 330gif / 330×330 |
+| --- | --- | --- |
+| ![太强了 120px](examples/strong/120gif/太强了.gif) | ![太强了 220px](examples/strong/220gif/太强了.gif) | ![太强了 330px](examples/strong/330gif/太强了.gif) |
+
+其他三组的全部尺寸均可从 [examples 目录](examples/README.md) 查看和下载。
+
+### 透明边缘检查
+
+下面是「太强了」同一帧合成在白、灰、深色底上的**静态检查图**。检查图的背景是为了看清边缘，不会写进上面的透明 GIF 成品：
+
+![太强了白灰深底上的描边检查](examples/strong/preview-on-backgrounds.png)
+
+[得意边缘检查](examples/cool/preview-on-backgrounds.png) · [比心边缘检查](examples/heart/preview-on-backgrounds.png) · [加油边缘检查](examples/cheer/preview-on-backgrounds.png)
+
+GitHub README 用 GIF 展示动态，MOV 用封面/动画预览链接与下载入口，不依赖任意 `<video>` 标签或仓库 MOV 必然内嵌播放。来源和权利范围见各组 `ATTRIBUTION.md`，这些素材没有被擅自授予开源或商用许可。制作方式见 [真实素材展示指南](docs/MEDIA.md)。
 
 ## 背景处理规则
 
@@ -204,7 +237,7 @@ python -I scripts/convert_stickers.py \
 - 尾部是否误删有效画面，速度和循环是否自然；
 - 保留装饰背景的成品是否被正确标记为非透明原画面。
 
-[TESTS.md](TESTS.md) 保留版本对应的测试记录：v2.3 用两段合成 MOV 检查路径/追加/防重名，并与 v2.2 的 6 个对应 GIF 做逐字节比较；六个真实 MOV 的结果属于早期版本的历史记录，不是本次文档整理中重新执行的测试，也不是“所有素材都适用”的保证。
+[TESTS.md](TESTS.md) 保留版本对应的测试记录：v2.3 用两段合成 MOV 检查路径/追加/防重名，并与 v2.2 的 6 个对应 GIF 做逐字节比较；六个真实 MOV 的结果属于早期版本的历史记录。此次公开示例另重新运行四个黑底 MOV，12个GIF全部通过编码验证；四份330px结果与用户上传成品逐字节一致，见 [媒体校验记录](examples/MEDIA_MANIFEST.json)。本次没有重新运行另两份保留装饰背景素材，也不是“所有素材都适用”的保证。
 
 本仓库额外包含命名单元测试，可在安装依赖后运行：
 
@@ -259,7 +292,7 @@ mov-sticker-to-transparent-gif/
 ├── docs/MEDIA.md                   # 真实 GIF/MOV 公开展示指南
 ├── docs/PUBLISH.md                 # GitHub 新建/上传/发布指南
 ├── docs/VERIFICATION.md            # 此次仓库整理的核对记录
-├── examples/README.md              # 演示素材状态；当前不含原片
+├── examples/README.md              # 四组真实 MOV / GIF、封面与校验记录
 ├── tests/test_naming.py            # 命名、防覆盖单元测试
 └── tools/package_skill.py          # 重新生成专用技能 ZIP
 ```
@@ -276,7 +309,7 @@ python -I tools/package_skill.py
 
 ## 公开发布与授权
 
-仓库：[AeroL1n/mov-sticker-to-transparent-gif](https://github.com/AeroL1n/mov-sticker-to-transparent-gif)。创建和后续更新步骤见 [GitHub 发布指南](docs/PUBLISH.md)。本仓库公开提供技能源码、专用安装包和中文说明；真实 MOV/GIF 演示素材尚未纳入，GitHub Release 尚未单独建立。
+仓库：[AeroL1n/mov-sticker-to-transparent-gif](https://github.com/AeroL1n/mov-sticker-to-transparent-gif)。创建和后续更新步骤见 [GitHub 发布指南](docs/PUBLISH.md)。本仓库公开提供技能源码、专用安装包和中文说明；已包含四组真实 MOV/GIF 示例，GitHub Release 尚未单独建立。
 
 当前未附带开源许可证；**公开可见不等于已授予任意修改、再分发或商用许可**。如需开放这些权利，由维护者选择适当许可证后再添加，不擅自替作者决定授权条款。
 

@@ -1,0 +1,70 @@
+{
+  "skill_version": "2.3.0",
+  "source": "加油.mov",
+  "public_mov_note": "Video-only stream copy; editor metadata and audio removed. Not byte-identical to uploaded original.",
+  "source_preview_duration_ms": 3730,
+  "uploaded_330gif_equals_v23_output": true,
+  "item": {
+    "source": "加油.mov",
+    "background_mode": "black",
+    "background": "透明背景",
+    "source_size": [
+      480,
+      480
+    ],
+    "source_frames": 112,
+    "kept_frames": 112,
+    "removed_trailing_frames": 0,
+    "removed_trailing_ms": 0,
+    "duration_ms": 3730,
+    "threshold": 96,
+    "outline_source_px": {
+      "inward": 2,
+      "outward": 3,
+      "total": 5
+    },
+    "padding_margin_source_px": 4,
+    "output_name": "加油",
+    "outputs": [
+      {
+        "size": [
+          120,
+          120
+        ],
+        "bytes": 574514,
+        "frames": 112,
+        "duration_ms": 3730,
+        "loop": 0,
+        "verified": true,
+        "sha256": "6c2457c4fb2dce41862506aec65aed22c71b2fc96c876806df94d4eb13ababc0",
+        "path": "120gif/加油.gif"
+      },
+      {
+        "size": [
+          220,
+          220
+        ],
+        "bytes": 1257348,
+        "frames": 112,
+        "duration_ms": 3730,
+        "loop": 0,
+        "verified": true,
+        "sha256": "1c5ed4acb2cbde8fb45f8a1ec7e73b8097566274b79988cf94c9ff5010ef5032",
+        "path": "220gif/加油.gif"
+      },
+      {
+        "size": [
+          330,
+          330
+        ],
+        "bytes": 2182791,
+        "frames": 112,
+        "duration_ms": 3730,
+        "loop": 0,
+        "verified": true,
+        "sha256": "4b243104ff8f940dfa47b63a0ec60cde0f718a987b5cb7d834b24f0901b46607",
+        "path": "330gif/加油.gif"
+      }
+    ]
+  }
+}

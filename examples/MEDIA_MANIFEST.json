@@ -1,0 +1,208 @@
+{
+  "skill_version": "2.3.0",
+  "uploaded_originals_unchanged": true,
+  "public_mov_copy": "Video-only stream copy; editor metadata and audio removed. Not byte-identical to uploaded original.",
+  "source_preview": "220px, approximately 15fps, retains full input video duration and black background; demonstration preview, not source MOV.",
+  "items": [
+    {
+      "name": "太强了",
+      "directory": "strong",
+      "source_uploaded_sha256": "4401885f5762dffd392b5f4d60ba728de97583587df272aca0235ccfa20571cc",
+      "public_mov_sha256": "70c3d1071282a04d3661351491707d227060b3cf13ea43edc978de1bcccc278b",
+      "video_frames_equal_to_upload": true,
+      "source_frames": 112,
+      "source_video_duration_ms": 3730,
+      "output_duration_ms": 2670,
+      "removed_trailing_frames": 32,
+      "uploaded_gif_matches_v23": true,
+      "files": {
+        "120gif/太强了.gif": {
+          "sha256": "28b3c94d074f96a65f38fd52b2260cd642723cad393ef9602b631c793e0fc17e",
+          "bytes": 532530
+        },
+        "220gif/太强了.gif": {
+          "sha256": "8b56cc2a96fe404a06ab28e99d12e57b0bd0351fc24fd69ddb41286554ff3770",
+          "bytes": 1258397
+        },
+        "330gif/太强了.gif": {
+          "sha256": "3e3e9bfdae114ea850ecbbe2ea03ec9646c1e7a4ea0a61b07217a1d1d95b5da5",
+          "bytes": 2299860
+        },
+        "ATTRIBUTION.md": {
+          "sha256": "de02ed6585a00020d40389032f66630743ff0cf4ae15e296447ebdebdae07300",
+          "bytes": 1439
+        },
+        "preview-on-backgrounds.png": {
+          "sha256": "64d87da29c3993541735e624dc26bc77f505d28cd393174ddff7b04f82cc8160",
+          "bytes": 61522
+        },
+        "processing-report.json": {
+          "sha256": "c424c8c4bd43cb29faa01e55c7f05a6577f74a600d007337a89c4fa532a983eb",
+          "bytes": 1737
+        },
+        "source-cover.png": {
+          "sha256": "b033ebd1e66eb41c73d103086b2ae07538bbf7e4698c136d397c6ea9d0dc3656",
+          "bytes": 138154
+        },
+        "source-preview.gif": {
+          "sha256": "17b5577e252674a167ca167ee5119656c0fb1f0c109cb398d5e738d920aaa00a",
+          "bytes": 679614
+        },
+        "太强了.mov": {
+          "sha256": "70c3d1071282a04d3661351491707d227060b3cf13ea43edc978de1bcccc278b",
+          "bytes": 649475
+        }
+      }
+    },
+    {
+      "name": "得意",
+      "directory": "cool",
+      "source_uploaded_sha256": "2aad928340e4a60dda22256842a6b64363dacae0bfac9c10f749b86e70aebe6c",
+      "public_mov_sha256": "e7f46756d5d86f91125526ea1df0549746d935507d284d9eb4c34716c272ef1c",
+      "video_frames_equal_to_upload": true,
+      "source_frames": 88,
+      "source_video_duration_ms": 2930,
+      "output_duration_ms": 2930,
+      "removed_trailing_frames": 0,
+      "uploaded_gif_matches_v23": true,
+      "files": {
+        "120gif/得意.gif": {
+          "sha256": "ea5a59c8dd34363e65b6103a2051b240186e0409f6c178ce431204183232f468",
+          "bytes": 588973
+        },
+        "220gif/得意.gif": {
+          "sha256": "d214f7df88906d50b3e4e44c8cea45c7745f5c1995072a63fd2a72e699237ab0",
+          "bytes": 1362590
+        },
+        "330gif/得意.gif": {
+          "sha256": "8b0ce65766d1caae5306780f1153f2d115b0a3c5280a76393e03b7032afb56fd",
+          "bytes": 2456544
+        },
+        "ATTRIBUTION.md": {
+          "sha256": "2427c5d8c63b8152fd3b009a3f1aa8f04033367d7f34d32a4207d60f9da74ed0",
+          "bytes": 1423
+        },
+        "preview-on-backgrounds.png": {
+          "sha256": "963c3f1504e18133fdb2ee9fa780102ed837a0e3c68e0c570e8ef40240cf5364",
+          "bytes": 49882
+        },
+        "processing-report.json": {
+          "sha256": "e36150b3b7a5d9f7f74dcbc63efa54eca920200796ea5c627a99e59559d1bcb8",
+          "bytes": 1714
+        },
+        "source-cover.png": {
+          "sha256": "6ec0d78418eb77b60957c365b9d9c5b02640af434fb17dfce02a7d07ac27c058",
+          "bytes": 124683
+        },
+        "source-preview.gif": {
+          "sha256": "ed8c2de8808e27f967e667230f0c0133aadbd8a3c66c1b52b1be49c2720de521",
+          "bytes": 756525
+        },
+        "得意.mov": {
+          "sha256": "e7f46756d5d86f91125526ea1df0549746d935507d284d9eb4c34716c272ef1c",
+          "bytes": 997286
+        }
+      }
+    },
+    {
+      "name": "比心",
+      "directory": "heart",
+      "source_uploaded_sha256": "d184fc8e6b018c55125d9b333bb910c847712f9c8d224c9c569378ac38fddbcf",
+      "public_mov_sha256": "eb83ce2c61a8f4e90b960bbfb5299f2849c5ac6b37c36d0dffb7d4c36d4b35ec",
+      "video_frames_equal_to_upload": true,
+      "source_frames": 109,
+      "source_video_duration_ms": 3630,
+      "output_duration_ms": 3630,
+      "removed_trailing_frames": 0,
+      "uploaded_gif_matches_v23": true,
+      "files": {
+        "120gif/比心.gif": {
+          "sha256": "dbda8016871c2e4ac177d5efce8c7aa9bdbb7f97ee8f93e052c9d5a4e6dff973",
+          "bytes": 626060
+        },
+        "220gif/比心.gif": {
+          "sha256": "5bb79c103c517e6790444271e9116d763daa1d2837ea207fbb49b6473d73d878",
+          "bytes": 1414169
+        },
+        "330gif/比心.gif": {
+          "sha256": "470b4fb26fa4e2409a9b95697d8b6d8d7c9a38516312b0834667cb34d774eb8f",
+          "bytes": 2462862
+        },
+        "ATTRIBUTION.md": {
+          "sha256": "11e191f3eb9acf345a5cdd751da8b754bdb1379bceb2334c97810650ae390ef9",
+          "bytes": 1423
+        },
+        "preview-on-backgrounds.png": {
+          "sha256": "e114a43e8844671f7733c7f080e78f4056dafcaecbabf5801c9c0ce601329f89",
+          "bytes": 46020
+        },
+        "processing-report.json": {
+          "sha256": "33d4afc83789ee0004007bafeb0f07ca4cf4753fe5ff67c571abae47bff981d4",
+          "bytes": 1719
+        },
+        "source-cover.png": {
+          "sha256": "99639c55028cdc27556a9f9293d6b04be29b457bbc6b6fb18da5540f4f7d0d7f",
+          "bytes": 121131
+        },
+        "source-preview.gif": {
+          "sha256": "8c6b43d87f0cadb3849e811c1d07fea5f02ff59ead04f09d845a782764fbb1e2",
+          "bytes": 769348
+        },
+        "比心.mov": {
+          "sha256": "eb83ce2c61a8f4e90b960bbfb5299f2849c5ac6b37c36d0dffb7d4c36d4b35ec",
+          "bytes": 766326
+        }
+      }
+    },
+    {
+      "name": "加油",
+      "directory": "cheer",
+      "source_uploaded_sha256": "de481deb69d296679a40b1e03fd39d307a1e186a72d3e51ba62640478eaf5b85",
+      "public_mov_sha256": "435f3b43223cbdec3b1cb00d4b6b93864fd5734b9fb63715d834d1af5d125d4b",
+      "video_frames_equal_to_upload": true,
+      "source_frames": 112,
+      "source_video_duration_ms": 3730,
+      "output_duration_ms": 3730,
+      "removed_trailing_frames": 0,
+      "uploaded_gif_matches_v23": true,
+      "files": {
+        "120gif/加油.gif": {
+          "sha256": "6c2457c4fb2dce41862506aec65aed22c71b2fc96c876806df94d4eb13ababc0",
+          "bytes": 574514
+        },
+        "220gif/加油.gif": {
+          "sha256": "1c5ed4acb2cbde8fb45f8a1ec7e73b8097566274b79988cf94c9ff5010ef5032",
+          "bytes": 1257348
+        },
+        "330gif/加油.gif": {
+          "sha256": "4b243104ff8f940dfa47b63a0ec60cde0f718a987b5cb7d834b24f0901b46607",
+          "bytes": 2182791
+        },
+        "ATTRIBUTION.md": {
+          "sha256": "1bf1a9fd3730385bd401164acc21e3b9ade5ec31eb8b819383dd66439275296f",
+          "bytes": 1423
+        },
+        "preview-on-backgrounds.png": {
+          "sha256": "247017e84186ebfcd6f69a4e5448b34315e3fb49a6c7131da2b222df0fa5f433",
+          "bytes": 44542
+        },
+        "processing-report.json": {
+          "sha256": "1494c450b345eee2eb36fdfc5a56a4eeefed17e474aa8690ea00554fdb7ab0fa",
+          "bytes": 1719
+        },
+        "source-cover.png": {
+          "sha256": "496f96087632764145069bcaf21e986977b2966756369b95172cd6e427a71a41",
+          "bytes": 123244
+        },
+        "source-preview.gif": {
+          "sha256": "22a200131e5b512e07105536e75575235fb0157e60e778ee766750590109426e",
+          "bytes": 760025
+        },
+        "加油.mov": {
+          "sha256": "435f3b43223cbdec3b1cb00d4b6b93864fd5734b9fb63715d834d1af5d125d4b",
+          "bytes": 1404041
+        }
+      }
+    }
+  ]
+}

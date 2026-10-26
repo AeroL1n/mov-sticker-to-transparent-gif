@@ -1,0 +1,70 @@
+{
+  "skill_version": "2.3.0",
+  "source": "比心.mov",
+  "public_mov_note": "Video-only stream copy; editor metadata and audio removed. Not byte-identical to uploaded original.",
+  "source_preview_duration_ms": 3630,
+  "uploaded_330gif_equals_v23_output": true,
+  "item": {
+    "source": "比心.mov",
+    "background_mode": "black",
+    "background": "透明背景",
+    "source_size": [
+      480,
+      480
+    ],
+    "source_frames": 109,
+    "kept_frames": 109,
+    "removed_trailing_frames": 0,
+    "removed_trailing_ms": 0,
+    "duration_ms": 3630,
+    "threshold": 96,
+    "outline_source_px": {
+      "inward": 2,
+      "outward": 3,
+      "total": 5
+    },
+    "padding_margin_source_px": 0,
+    "output_name": "比心",
+    "outputs": [
+      {
+        "size": [
+          120,
+          120
+        ],
+        "bytes": 626060,
+        "frames": 109,
+        "duration_ms": 3630,
+        "loop": 0,
+        "verified": true,
+        "sha256": "dbda8016871c2e4ac177d5efce8c7aa9bdbb7f97ee8f93e052c9d5a4e6dff973",
+        "path": "120gif/比心.gif"
+      },
+      {
+        "size": [
+          220,
+          220
+        ],
+        "bytes": 1414169,
+        "frames": 109,
+        "duration_ms": 3630,
+        "loop": 0,
+        "verified": true,
+        "sha256": "5bb79c103c517e6790444271e9116d763daa1d2837ea207fbb49b6473d73d878",
+        "path": "220gif/比心.gif"
+      },
+      {
+        "size": [
+          330,
+          330
+        ],
+        "bytes": 2462862,
+        "frames": 109,
+        "duration_ms": 3630,
+        "loop": 0,
+        "verified": true,
+        "sha256": "470b4fb26fa4e2409a9b95697d8b6d8d7c9a38516312b0834667cb34d774eb8f",
+        "path": "330gif/比心.gif"
+      }
+    ]
+  }
+}
